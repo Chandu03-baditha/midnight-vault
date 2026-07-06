@@ -238,6 +238,27 @@ https://github.com/Chandu03-baditha
 
 ---
 
+# 🏛 Project Architecture
+
+```
+                 User
+                   │
+                   ▼
+          Midnight Vault CLI
+                   │
+                   ▼
+      Compact Smart Contract
+                   │
+                   ▼
+      Midnight Local Devnet
+                   │
+         ┌─────────┴─────────┐
+         ▼                   ▼
+   Public Ledger      Private Witness
+```
+---
+
+The application follows Midnight's privacy-first architecture, where user interactions are handled through the CLI, processed by a Compact smart contract, and executed on the Midnight Network. Sensitive inputs are managed using Compact's privacy model, while only explicitly disclosed data is written to the public ledger.
 # 🙏 Acknowledgements
 
 - Midnight Network
