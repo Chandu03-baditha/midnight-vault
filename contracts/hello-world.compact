@@ -1,0 +1,11 @@
+pragma language_version >= 0.23;
+
+import CompactStandardLibrary;
+
+/// Midnight Vault - Privacy First Notes
+
+export ledger note: Opaque<"string">;
+
+export circuit storeNote(privateNote: Opaque<"string">): [] {
+    note = disclose(privateNote);
+}
