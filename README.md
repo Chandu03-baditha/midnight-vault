@@ -39,6 +39,10 @@ The application allows users to store personal notes using Compact smart contrac
 - Secure ledger state management
 
 ---
+## Initial Product Idea
+
+Midnight Vault is a privacy-first personal note-taking application on Midnight. Users can securely store sensitive notes on-chain where only they (or authorized parties) can read them, using Compact’s privacy features. The goal is to evolve this into a full-featured encrypted notes dApp with multiple notes, sharing capabilities, and Mainnet deployment.
+---
 
 # ✨ Current Features
 
