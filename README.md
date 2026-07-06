@@ -224,6 +224,9 @@ Midnight was chosen because it provides:
 These capabilities make Midnight well suited for building decentralized applications that require confidentiality without sacrificing blockchain security.
 
 ---
+## 📸 Screenshots
+See the screenshots folder in the structure.
+---
 
 # 👨‍💻 Author
 
