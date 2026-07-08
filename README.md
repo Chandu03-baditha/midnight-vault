@@ -228,8 +228,48 @@ Midnight was chosen because it provides:
 These capabilities make Midnight well suited for building decentralized applications that require confidentiality without sacrificing blockchain security.
 
 ---
+## 📍 Deployed Contract
+
+**Network:** Midnight Preprod
+
+**Contract Address:**
+```text
+a972c688a5f50b99be763e7e9b0636be578c77d8c81ef30ca2c101d9682e87a6
+```
+
+---
+
+## 🔒 Privacy Model
+
+This project demonstrates privacy-preserving smart contracts on the Midnight blockchain.
+
+- Private notes are stored using `Opaque` data types.
+- Sensitive information remains private and is not written to the public ledger.
+- The `disclose()` function is used to selectively reveal data only when required.
+- The public ledger stores only the necessary public state, while confidential data remains protected in the private witness.
+
+---
+
+## 🧪 Testing
+
+A basic test suite is included in:
+
+```text
+tests/storeNote.test.ts
+```
+
+The tests verify the basic behavior of the private note storage contract and demonstrate the intended contract logic.
+
+---
+
 ## 📸 Screenshots
-See the screenshots folder in the structure.
+
+The repository includes screenshots showing:
+
+- Successful contract compilation
+- Successful contract deployment
+- Generated managed contract artifacts
+- Deployed contract address
 ---
 
 # 👨‍💻 Author
